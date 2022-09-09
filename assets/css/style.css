@@ -1,3 +1,4 @@
+/* Universal selector. */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,25 +6,30 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* Element selector. */
 body {
     background-color: #d9dcd6;
 }
 
+/* Element selector. */
 header {
     padding: 20px;
     background-color: #2a607c;
     color: #ffffff;
 }
 
+/* Element selector. */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Element selector. */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Element selector. */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,20 +38,24 @@ header nav {
     font-size: 20px;
 }
 
+/* Element selector. */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* type slector */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* type slector */
 p {
     font-size: 16px;
 }
 
+/* class selector */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,24 +65,28 @@ p {
     background-position: center;
 }
 
+/* class selector */
 .float-left {
     float: left;
     margin-right: 25px;
     max-height: 200px;
 }
 
+/* class selector */
 .float-right {
     float: right;
     margin-left: 25px;
     max-height: 200px;
 }
 
+/* class selector */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* class selector */
 .content section{
     margin-bottom: 20px;
     padding: 50px;
@@ -82,6 +96,7 @@ p {
     color: #ffffff;
 }
 
+/* class selector */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -93,6 +108,7 @@ p {
     background-color: #2589bd;
 }
 
+/* class selector */
 .benefits div{
     margin-bottom: 32px;
     color: #ffffff;
@@ -103,17 +119,20 @@ h3{
     text-align: center;
 }
 
+/* class selector */
 .benefits img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Element selector. */
 h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Element selector. */
 footer {
     padding: 30px;
     clear: both;
